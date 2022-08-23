@@ -239,7 +239,8 @@ p {
 }
 
 .skillset__title {
-  color: var(--color-white);
+  color: var(--color-light-white);
+  font-size: var(--font-medium);
 }
 .skillset__left {
   flex-basis: 60%;
