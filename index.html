@@ -244,24 +244,32 @@
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-          <button class="category__btn">
-            Radio Access <span class="category__count">4</span>
+          <button class="category__btn active" data-filter="*">
+            All<span class="category__count">7</span>
           </button>
-          <button class="category__btn">
-            data analyzing <span class="category__count">3</span>
+          <button class="category__btn" data-filter="Radio Access">
+            Radio Access<span class="category__count">4</span>
           </button>
-          <button class="category__btn">
-            Reporting <span class="category__count">4</span>
-          </button>
-          <button class="category__btn">
-            Work Programming <span class="category__count">3</span>
-          </button>
-          <button class="category__btn">
-            self developing <span class="category__count">4</span>
+          <button class="category__btn" data-filter="Hobbies">
+            Hobbies <span class="category__count">3</span>
           </button>
         </div>
         <div class="work__projects">
-          <a href="" class="project" target="blank">
+          <a href="" class="project" target="blank" data-type="Radio Access">
+            <img
+              class="project__img"
+              src="imgs/projects/4g-antenna-image.jpg"
+              alt="tennis"
+            />
+            <div class="project__description">
+              <h3>Live 5G/LTE NW</h3>
+              <span
+                >I designed, built and operated 5G/LTE NW of Sungnam-si and
+                Yongin-si from 2017~2020. And I optimizated 5G/LTE NW.</span
+              >
+            </div>
+          </a>
+          <a href="" class="project" target="blank" data-type="Radio Access">
             <img
               class="projcet__img"
               src="imgs/projects/kdm.png"
@@ -272,14 +280,14 @@
               <span>NW Issue Improvement</span>
             </div>
           </a>
-          <a href="" class="project" target="blank">
+          <a href="" class="project" target="blank" data-type="Radio Access">
             <img class="projcet__img" src="imgs/projects/3gpp.png" alt="3GPP" />
             <div class="project__description">
               <h3>3GPP Understand</h3>
               <span>5G/LTE RF Quallity & Call event analyze</span>
             </div>
           </a>
-          <a href="" class="project" target="blank">
+          <a href="" class="project" target="blank" data-type="Radio Access">
             <img
               class="projcet__img"
               src="imgs/projects/message.gif"
@@ -288,6 +296,41 @@
             <div class="project__description">
               <h3>UE message analyzing</h3>
               <span>5G/LTE RF Quallity & Call event analyze</span>
+            </div>
+          </a>
+          <a href="" class="project" target="blank" data-type="Hobbies">
+            <img class="project__img" src="imgs/projects/rory.jpg" alt="golf" />
+            <div class="project__description">
+              <h3>Golf</h3>
+              <span
+                >My role model is Rory. his swing is perfect. I always follow
+                it.</span
+              >
+            </div>
+          </a>
+          <a href="" class="project" target="blank" data-type="Hobbies">
+            <img
+              class="project__img"
+              src="imgs/projects/nadal.jpg"
+              alt="tennis"
+            />
+            <div class="project__description">
+              <h3>Tennis</h3>
+              <span
+                >My role model is Nadal. I like his forehand stroke. Nowadays
+                tennis is my favorite hobby.</span
+              >
+            </div>
+          </a>
+          <a href="" class="project" target="blank" data-type="Hobbies">
+            <img class="project__img" src="imgs/projects/camp.jpg" alt="camp" />
+            <div class="project__description">
+              <h3>Camp</h3>
+              <span
+                >I always enjoy nature and fresh air. camp gives me a good
+                feeling. Most of all I'm happy when I go to camp with mt
+                wife</span
+              >
             </div>
           </a>
         </div>
